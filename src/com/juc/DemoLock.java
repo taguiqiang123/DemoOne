@@ -9,7 +9,7 @@ public class DemoLock {
 		DemoLocks de = new DemoLocks();
 		for (int i = 0; i < 5; i++) {
 			new Thread(de).start();
-			System.out.println(999998999);
+			System.out.println(99999999);
 		}
 	}
 	
