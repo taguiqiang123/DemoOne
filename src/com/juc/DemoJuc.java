@@ -11,6 +11,7 @@ public class DemoJuc {
 		AtomicDemo ao = new AtomicDemo();
 		for (int i = 0; i < 10; i++) {
 			new Thread(ao).start();
+			System.out.println(456498);
 		}
 	}
 }
